@@ -52,9 +52,11 @@ SQL은 Structured Query Language의 약자로 관계형 데이터베이스 시�
 
 # NOSQL이란?
 
+## NOSQL의 정의
+
 비관계형 데이터베이스 유형을 나타내며, 이러한 데이터베이스는 관계형 테이블과 다른 형식으로 데이터를 저장합니다. 그러나 NOSQL 데이터베이스는 API,선언적 구조화 쿼리 언어(SQL),쿼리별 예약어를 사용하여 쿼리할 수 있으므로 'Not Only SQL'데이터베이스라고도 합니다.
 
-## NOSQL의 종류
+## NOSQL 데이터베이스의 종류
 
     - key-value DB
     - wide columnarDB
