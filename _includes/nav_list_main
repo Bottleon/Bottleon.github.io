@@ -26,6 +26,8 @@
                 {% for category in site.categories %}
                     {% if category[0] == "framework" %}
                         <li><a href="/categories/framework" class="">프레임워크 ({{category[1].size}})</a></li>
+                    {% endif %}
+                    {% if category[0] == "nodejs" %}
                         <li><a href="/categories/nodejs" class="">nodeJS ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
@@ -44,6 +46,15 @@
                 {% for category in site.categories %}
                     {% if category[0] == "restapi" %}
                         <li><a href="/categories/restapi" class="">RestAPI ({{category[1].size}})</a></li>
+                    {% endif %}
+                    {% if category[0] == "cors" %}
+                        <li><a href="/categories/cors" class="">CORS ({{category[1].size}})</a></li>
+                    {% endif %}
+                    {% if category[0] == "cookie" %}
+                        <li><a href="/categories/cookie" class="">쿠키 ({{category[1].size}})</a></li>
+                    {% endif %}
+                    {% if category[0] == "session" %}
+                        <li><a href="/categories/session" class="">세션 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
