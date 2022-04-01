@@ -33,6 +33,12 @@
                     {% if category[0] == "cors" %}
                         <li><a href="/categories/cors" class="">CORS ({{category[1].size}})</a></li>
                     {% endif %}
+                    {% if category[0] == "oauth" %}
+                        <li><a href="/categories/oauth" class="">OAuth ({{category[1].size}})</a></li>
+                    {% endif %}
+                    {% if category[0] == "orm" %}
+                        <li><a href="/categories/orm" class="">ORM ({{category[1].size}})</a></li>
+                    {% endif %}
                 {% endfor %}
             </ul>
             
